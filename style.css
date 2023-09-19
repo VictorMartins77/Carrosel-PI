@@ -1,0 +1,17 @@
+/* Carrosel */
+.carrosel{
+    overflow: hidden;
+    height: 475px;
+    width: 1669px;
+}
+
+.container{
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    transform: translateX(0);
+}
+
+.carrosel img{
+    height: 475px;
+    width: 1669px;
+}
